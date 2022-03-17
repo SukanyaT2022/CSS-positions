@@ -1,0 +1,26 @@
+.mainbox{
+    height: 600px;
+    width: 800px;
+    border: 5px solid pink;
+    border-radius:  3px;
+margin: 0%;
+    overflow: scroll;
+
+}
+img{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    left: 500px;
+    top: 100px;
+    display: block;
+    position: fixed;
+
+}
+
+.box-text{
+
+}
+
+/*fix position can work without top bottom let or right
+if want to move image if use margin must use display:block other wise it will not work*/

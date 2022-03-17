@@ -1,0 +1,45 @@
+.mainbox{
+    height: 800px;
+    width: 100%;
+    background-color:coral;
+   
+}
+
+/*z-index less number go down and more number is go up
+wehn we use position --we do not use margin but we use only top bottom left and right*/
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: relative; /*use box1 as parent so use relative*/
+    z-index: 1;
+   
+}
+
+
+.box2{
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    position: absolute; /*use box2 as child so use absolute-- box child move inside parent box*/
+top: 30%;/*move pink box down by use top*/
+z-index: 2;
+left:250px;
+
+
+
+}
+
+.box3{
+    height: 100px;
+    width: 500px;
+    background-color:green;
+    position: absolute;
+    z-index: 3;
+    margin-top: 35px;/* margin top make box go down from space bet aqua box*/
+    right: 500px;
+  
+   
+
+}
